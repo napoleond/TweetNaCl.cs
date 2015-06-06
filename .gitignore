@@ -1,7 +1,6 @@
 bin/*
 obj/*
 *.obj
-*.exp
 *.user
 *.userprefs
 *.old*

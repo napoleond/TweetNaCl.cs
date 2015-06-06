@@ -9,7 +9,7 @@
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>TweetNaCl</RootNamespace>
-    <AssemblyName>TweetNaCl</AssemblyName>
+    <AssemblyName>TweetNaCl.cs</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <TargetFrameworkProfile>Client</TargetFrameworkProfile>
     <FileAlignment>512</FileAlignment>
@@ -60,7 +60,9 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
+    <None Include="amd64\tweetnacl.exp" />
     <None Include="amd64\tweetnacl.lib" />
+    <None Include="i386\tweetnacl.exp" />
     <None Include="i386\tweetnacl.lib" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
